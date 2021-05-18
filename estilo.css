@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+h1 {
+    color: orange;
+}
+
+.form-control {
+    background-color: rgb(30, 30, 30);
+    color: orange;
+    border: 1px solid black;
+    outline: none;
+}
+
+.form-control:focus {
+    background-color: black;
+    color: orange;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: orange;
+}
+
+.navbar-collapse ul li a {
+    color: orange;
+}
+
+.navbar-collapse ul li a:hover {
+    color: orange;
+    font-size: 1.05em;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-toggler {
+    background-color: rgb(36, 36, 36);
+}
+
+.fa-plus {
+    color: orange;
+}
+
+.fa-search {
+    color: orange;
+}
+
+.icone button {
+    background-color: rgb(30, 30, 30);
+}
+
+.table {
+    background-color: rgb(30, 30, 30);
+    border: 1px solid black;
+    color: orange;
+}
